@@ -5,6 +5,7 @@ hrApp.service('EmployeeService', ['$http', 'CommonResourcesFactory', function ($
                     .success(function (data) {
                         return data;
                     })
+
                     .error(function (err) {
                         return {
                             "id": 100,
